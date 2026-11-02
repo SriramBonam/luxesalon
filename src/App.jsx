@@ -25,7 +25,7 @@ function BookingForm() {
 
     try {
       const response = await fetch(
-        "http://localhost:5050/api/bookings",
+        "https://luxesalon-api.onrender.com/api/bookings",
         {
           method: "POST",
           headers: {
